@@ -3,7 +3,7 @@ $('input').click(function () {
   let dates
   $.ajax({
     type: "GET",
-    url: " http://worldclockapi.com/api/json/est/now",
+    url: " https://worldclockapi.com/api/json/est/now",
     data: " ",
     success: function (data) {
       // let obj = {
