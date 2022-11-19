@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <link rel="icon" href="img/stripe.svg" type="image/x-icon">
+  <title>Resultado Apolice</title>
+</head>
+
+<body>
+  <main>
+    <div class="m-2 mx-auto " style="max-width: 750px;">
+      <h1 class="text-center">Resultado da Apolice</h1>
+      <div class="m-5 border p-3">
+
+        <div class="my-4">
+          <label for=""><Strong>Pessoa</Strong></label>
+          <section>
+            <div class="d-flex m-2">
+              <label class="col-2 text-end" for=" Name" id="nomeP">Nome: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id=" textName" name="nameR"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2 ">
+              <label class="col-2 text-end" for="Genero" id="generoP">Genero: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textGenero" name="genero"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2 ">
+              <label class="col-2 text-end" for="Idade" id="idadeP">Idade: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textIdade" name="idade"></span>
+              </div>
+            </div>
+          </section>
+
+
+        </div>
+
+        <div class="my-3">
+          <label for=""><Strong>Carro</Strong></label>
+          <section>
+            <div class="d-flex m-2 ">
+              <label class="col-2 text-end" for="Marca" id="marcaP">Marca: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textMarca" name="marcaR"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2">
+              <label class="col-2 text-end" for=" Modelo" id="modeloP">Modelo: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textModelo" name="modeloR"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2">
+              <label class="col-2 text-end" for="anoF" id="anofP">Fabricação: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textAnoF" name="anoFR"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2">
+              <label class="col-2 text-end" for="Valor" id="valueP">Valor:</label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="Value" name="valorR"></span>
+              </div>
+            </div>
+
+            <div class="d-flex m-2">
+              <label class="col-2 text-end" for="Bonus" id="bonusP">Bonus: </label>
+              <div class="bg-light border mx-2 w-100">
+                <span class="m-auto" id="textBonus" name="bonusR"></span>
+              </div>
+            </div>
+
+          </section>
+
+
+
+        </div>
+        <div class="d-flex m-2">
+          <label class="col-2 text-end" for=" Res" id="resP">Resultado:</label>
+          <div class="bg-light border mx-2 w-100">
+            <span class="m-auto" id="textRes" name="resR"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="btn-toolbar justify-content-center " role="toolbar">
+      <div class="btn-group mr-3 px-2">
+        <button class="btn btn-secondary y" id="refaz">Refazer formulario</button>
+      </div>
+      <div class="btn-group mr-3 px-2 ">
+        <button class="btn btn-secondary y" id="home">Home</button>
+      </div>
+
+    </div>
+
+
+  </main>
+  <script src="./scriptResForm.js"></script>
+</body>
+
+</html>
