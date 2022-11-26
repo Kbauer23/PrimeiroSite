@@ -14,11 +14,23 @@
   <title>Formulario Apolice de Seguro</title>
 
 </head>
+<style>
+  body {
+    @media screen and(max-width: 768px) {
+
+      nav,
+      main {
+        width: 100%;
+        padding: 0px
+      }
+    }
+  }
+</style>
 
 <body>
   <nav class="navbar navbar-expand bg-dark border-bottom border-3">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#"><img class="bg-white" src="./img/stripe.svg" alt="" height="25px"><i
+      <a class="navbar-brand text-white" href="#"><img class="bg-white" src="./stripe.svg" alt="" height="25px"><i
           class="bi bi-stripe">
           eguros</i></a>
     </div>
@@ -41,7 +53,7 @@
   </nav>
   <main>
 
-    <div class="m-2 mx-auto" style="max-width: 750px;">
+    <div class="m-2 mx-auto container">
 
       <form action="./resEx4.html" method="get" id="validationDate">
         <fieldset form="validationDate">
